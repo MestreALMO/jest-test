@@ -1,7 +1,9 @@
 yarn create react-app . --template typescript
+
 yarn add jest ts-node -D
 
 yarn jest --init
+
 √ Would you like to use Jest when running "test" script in "package.json"? ... yes
 
 √ Would you like to use Typescript for the configuration file? ... yes
@@ -17,4 +19,7 @@ yarn jest --init
 yarn add @types/jest -D
 
 create file to test => test.test.tsx
+
+add in package.json scripts: "test": "jest",
+
 yarn test
